@@ -20,8 +20,7 @@ export default function Login() {
             <FormComponent labelName="Password" typeName="password" />
             <ButtonComponent
               variantName="primary"
-              TypeName="submit"
-              labelName="Submit"
+              labelName="Login"
             />
           </Form>
         </Col>
