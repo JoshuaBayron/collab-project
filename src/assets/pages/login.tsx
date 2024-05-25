@@ -4,15 +4,12 @@ import FormComponent from "../components/form";
 import ButtonComponent from "../components/buttons";
 import ImageComponent from "../components/ImageRounds";
 
-export default function Home() {
+export default function Login() {
   return (
-    <Container className="mt-5">
-      <Row className="justify-content-center align-items-center">
-        <Col
-          md={4}
-          lg={3}
-        >
-          <ImageComponent source={logo} shape={"roundedCircle"}/>
+    <Container className="d-flex vh-100">
+      <Row className="justify-content-center align-self-center w-100">
+        <Col md={4} lg={3} className="d-flex justify-content-center">
+          <ImageComponent source={logo} shape={"roundedCircle"} />
         </Col>
         <Col md={8} lg={6}>
           <div className="d-flex align-items-center mb-3">
